@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="D:\Web\assets\usama-icon.png">
+    <title>Usama Arshad</title>
+    <style type="text/css">
+
+        body {
+            font-family: Monaco, monospace;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+
+        }
+        table, th, td {
+            border: 1px solid #333;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        tr:nth-child(odd) {
+            background-color: #DDD;
+        }
+
+        .bio, .aim{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 20px 20% 20px 20%;
+
+        }
+        .education{
+            text-align: center;
+            margin: 20px 20px 20px 20px;
+        }
+        .container {
+            display: flex;
+        }
+
+        .left-column, .middle-column, .right-column {
+            padding: 20px;
+            margin: 20px;
+            background-color: #D8D9DA;
+        }
+
+        .left-column {
+            width: 25%;
+        }
+
+        .middle-column {
+            width: 50%;
+        }
+
+        .right-column {
+            width: 25%;
+        }
+
+        .profile-picture {
+            float: right;
+            max-width: 200px;
+            border-radius: 50%;
+        }
+        .chatus{
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            z-index: 1000;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            
+            width: 100%;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        /* Media Queries */
+
+      @media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-column, .middle-column, .right-column {
+        width: 80%;
+    }
+    table {
+        width: 25%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+
+    </style>
+</head>
+<body>
+    <header>
+            <h1>Usama Arshad</h1>
+    </header>
+
+        <div class="bio">
+            <img src="D:\Web\assets\logo-img.png" alt="Profile Picture" class="profile-picture">
+            <p>My name is Usama Arshad, I am a Unity game developer with the 1+ year of experience in deveolping and maintaining games. I am proficient in C/C++, C# and Python. I am also a strong communicator and a team player. For now, I am working on some mobile games that can you play in future soon...</p>
+        </div>
+        <div class="education">
+            <h3>Educational History</h3>
+        <table class="table">
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+                <th>GPA</th>
+            </tr>
+            <tr>
+                <td>Bachalors of Computer Science</td>
+                <td>University of Sialkot, Sialkot</td>
+                <td>2021-2024</td>
+                <td>3.3</td>
+            </tr>
+            <tr>
+                <td>Intermediate (F.Sc)</td>
+                <td>Royal Group of Collages, Gujranwala </td>
+                <td>2017-2019</td>
+                <td>785</td>
+            </tr>
+            <tr>
+                <td>Matric</td>
+                <td>Govt. High School, Wadala Sandhuwan</td>
+                <td>2015-2017</td>
+                <td>883</td>
+            </tr>
+        </table>
+        </div>
+
+    <div class="container">
+        <div class="left-column">
+            <h3>Professional Skills</h3>
+            <ul>
+                <li>Unity Game Developer</li>
+                <li>Graphic Designer</li>
+                <li>Programming Languages (C/C++, C#, Python)</li>
+            </ul>
+        </div>
+
+        <div class="middle-column">
+            
+            <section>
+                <h3>Hobbies</h3>
+                <ol>
+                    <li>Playing Chess</li>
+                    <li>Capturing the Nature</li>
+                    <li>Playing Video Games</li>
+                    <li>Playing Cricket</li>
+                </ol>
+            </section>
+
+            <section>
+                <h3>Awesome Places of Pakistan Visited</h3>
+                <ol>
+                    <li>Minar-e-Pakistan</li>
+                    <li>Faisal Mosque</li>
+                    <li>Kalam Velly</li>
+                    <li>Kashmir</li>
+                    <li>Khewra Salt Mines</li>
+                </ol>
+            </section>
+        </div>
+
+        <div class="right-column">
+            <h3>Projects</h3>
+            <ul>
+                <li>Dying World: Fall of the Civilization</li>
+                <li>Jungle Runner</li>
+                <li>Car Driving Simulator</li>
+                <li>Insurance Company Management System</li0>
+                <li>Online Quiz System</li0>
+
+            </ul>
+        </div>
+    </div>
+    <div class="aim">
+        <h3>Life Ambition</h3>
+        <p>My life ambition is a combination of entrepreneurship in the IT sector, with a specific emphasis on software development and game creation. This ambition will not only reflects my technical skills but also my desire to make a mark in the software industry, potentially contributing to the growth of the IT sector in my country.</p>
+    </div>
+    <div class="chatus">
+        <a href="https://wa.me/+923424303556" target="_blank"><img src="D:\Web\assets\whatsapp-icon-anim.gif" alt="WhatsApp"></a>
+    </div>
+
+    <footer>
+        <h3>Usama Arshad</h3>
+        <p>usama.myservices@gmail.com</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/usamaarshad.arshad.1" target="_blank"><img src="D:\Web\assets\facebook-icon.png" alt="Facebook"></a>
+            <a href="https://instagram.com/usama_arshad.56" target="_blank"><img src="D:\Web\assets\instagram-icon.png" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/in/usama-arshad-868799227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><img src="D:\Web\assets\linkedin-icon.png" alt="LinkedIn"></a>
+            <a href="https://github.com/Usama556" target="_blank"><img src="D:\Web\assets\github-icon.png" alt="GitHub"></a>
+            <a href="https://wa.me/+923424303556" target="_blank"><img src="D:\Web\assets\whatsapp-icon.png" alt="WhatsApp"></a>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
